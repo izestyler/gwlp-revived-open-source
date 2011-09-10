@@ -7,7 +7,7 @@ This will be the data structure the project uses to save skills.
 Keep in mind:
  * We want it to be easy enough to quickly change the skills.
  * We want it to be complete enough to support a huge amount of skills without the need of extra scripts.
- * We want it to be an clean as possible. Remember: scalability.
+ * We want it to be as clean as possible. Remember: scalability.
 
 
 = Details =
