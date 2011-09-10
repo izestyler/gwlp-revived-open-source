@@ -56,7 +56,7 @@
  * P139_UnknownAfterIl
 
 == To Client ==
-* NotEncP5633_ServerSeed
+ * NotEncP5633_ServerSeed
  * P001_PingRequest
  * P002_PingReply
  * P018_InstanceLoadZoneDataHeader
