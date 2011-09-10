@@ -1,0 +1,62 @@
+#Suggested skill data structure
+
+= Introduction =
+
+This will be the data structure the project uses to save skills.
+
+Keep in mind:
+ * We want it to be easy enough to quickly change the skills.
+ * We want it to be complete enough to support a huge amount of skills without the need of extra scripts.
+ * We want it to be an clean as possible. Remember: scalability.
+
+
+= Details =
+
+Note: Change the names to be more suitable
+
+ * SkillID
+ * Name
+ * Profession
+ * Attribute
+ * Type (->[http://www.guildwiki.org/Skill_type 1], [http://www.guildwiki.org/Skill_prefixes_and_suffixes 2], determines functionality)
+ * IsElite
+ * IsPvP
+ * SkillTargetFlags (self or group or allies or foes, e.g. Energy Tap: foes)
+ * EffectTargetFlags (self or group or allies or foes, e.g. Energy Tap: self)
+ * ReqWeaponType (bows, daggers etc.)
+ * CostEnergy
+ * CostAdrenalin
+ * CostHealth
+ * CostUpkeep
+ * Exhaustion
+ * TimeCast
+ * TimeAfterCast
+ * TimeRecharge
+ * DurationMin
+ * DurationMax
+ * DamageType
+ * DamageModifier (changes dmg dealt apart from skill)
+ * DamageMin
+ * DamageMax
+ * DamageBonusMin (?)
+ * DamageBonusMax (?)
+ * HealMin
+ * HealMax
+ * HealBonusMin
+ * HealBonusMax
+ * Range
+ * AoeSelf (->[http://www.guildwiki.org/Range 3], following in order, e.g. Shockwave)
+ * AoeAdjacentFoe
+ * AoeAdjacentMelee
+ * AoeNearby
+ * AoeArea
+ * AoeHalf
+ * AoeEarshot
+ * AoeShortbow
+ * AoeRecurvebow
+ * AoeLongbow
+ * AoeSpiritEffect
+ * AoeCompass
+ * VitalStatFlags (conditions, hexes)
+ * AdditionalScript (in the db or local?)
+ * (...?)
