@@ -1,0 +1,20 @@
+#summary Documentation of Guildwars Packets
+#sidebar TableOfContents
+
+= Login Server =
+
+== From Client ==
+
+
+== To Client ==
+
+
+
+= Game Server =
+
+== From Client ==
+
+
+== To Client ==
+
+
