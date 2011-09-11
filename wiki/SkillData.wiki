@@ -80,7 +80,7 @@ Note: Change the names to be more suitable
  
 <skill id="x" name="Immolate" recharge="5000" casttime="1000" type="SPELL" attribute="FIRE_MAGIC"> <-- notice how there's no subtype -->
         <usage>
-                <energy>15</energy>
+                <energy>10</energy>
         </usage>
         <targetting>
                 <foe />
