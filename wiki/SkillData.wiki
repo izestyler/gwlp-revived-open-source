@@ -60,3 +60,34 @@ Note: Change the names to be more suitable
  * VitalStatFlags (conditions, hexes)
  * AdditionalScript (in the db or local?)
  * (...?)
+
+= Harboe's suggestions =
+
+{{{
+<skill id="x" name="Backfire" recharge="20000" casttime="3000" type="SPELL" subtype="HEX" attribute="DOMINATION_MAGIC">
+        <usage>
+                <energy>15</energy>
+        </usage>
+        <targetting>
+                <foe /> <!-- could also have <ally />, <friendly />, whatever -->
+        </targetting>
+        <effects>
+                <hex trigger="CASTSPELL" duration="10000">
+                        <dmg base="35" max="140" />
+                </hex>
+        </effects>
+</skill>
+ 
+<skill id="x" name="Immolate" recharge="5000" casttime="1000" type="SPELL" attribute="FIRE_MAGIC"> <-- notice how there's no subtype -->
+        <usage>
+                <energy>15</energy>
+        </usage>
+        <targetting>
+                <foe />
+        </targetting>
+        <effects>
+                <dmg base="20" max="75" />
+                <burn base="1" max="3" /> <!-- don't need to specify duration as BurnEffect uses the attributes base and max to calculate its duration -->
+        </effects>
+</skill>
+}}}
