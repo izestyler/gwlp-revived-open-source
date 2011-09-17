@@ -58,7 +58,7 @@ Keep in mind:
 </skill>
 }}}
 
-== XAML by Fealty ==
+=== XAML by Fealty ===
 
 {{{
 <Skill Id="99" Name="Parasitic Bond" Type="Spell" Subtype="Hex" Attribute="7" CastTime="1000" Recharge="2000">
