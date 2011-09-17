@@ -1,19 +1,73 @@
-#Suggested skill data structure
+#summary Suggested skill data structure
+#labels Phase-Design
 
 = Introduction =
 
-This will be the data structure the project uses to save skills.
+We'll use a skill system based on an XML structure,
+see this:
+(...keep this up to date so we have a valid example)
+{{{
+<skill id="99" name="Parasitic Bond" type="SPELL" subtype="HEX" attribute="7"  casttime="1000" recharge="2000">
+        <cost>
+                <energy>5</energy>
+        </cost>
+        <targetting>
+                <foe>
+                        <effects>
+                                <hpdegen target="FOE" rate="-1" duration="20000">
+                                        <hpgain target="SELF" trigger="PARENT_END" base="30" max="120"/>
+                                </hpdegen>
+                        </effects>
+                </foe>
+        </targetting>
+</skill>
+}}}
 
 Keep in mind:
  * We want it to be easy enough to quickly change the skills.
- * We want it to be complete enough to support a huge amount of skills without the need of extra scripts.
+ * We want it to be complete enough to support a huge amount of skills, with a minimum of code.
  * We want it to be as clean as possible. Remember: scalability.
 
+<br/>
+== Skill data anatomy ==
 
-= Details =
+=== Harboe's suggestions ===
+
+{{{
+<skill id="x" name="Backfire" recharge="20000" casttime="3000" type="SPELL" subtype="HEX" attribute="DOMINATION_MAGIC">
+        <usage>
+                <energy>15</energy>
+        </usage>
+        <targetting>
+                <foe /> <!-- could also have <ally />, <friendly />, whatever -->
+        </targetting>
+        <effects>
+                <hex trigger="CASTSPELL" duration="10000">
+                        <dmg base="35" max="140" />
+                </hex>
+        </effects>
+</skill>
+ 
+<skill id="x" name="Immolate" recharge="5000" casttime="1000" type="SPELL" attribute="FIRE_MAGIC"> <!-- notice how there's no subtype -->
+        <usage>
+                <energy>10</energy>
+        </usage>
+        <targetting>
+                <foe />
+        </targetting>
+        <effects>
+                <dmg base="20" max="75" />
+                <burn base="1" max="3" /> <!-- don't need to specify duration as BurnEffect uses the attributes base and max to calculate its duration -->
+        </effects>
+</skill>
+}}}
+
+<br/>
+== `<skill>` Fields ==
 
 Note: Change the names to be more suitable
 
+OBSOLETE:
  * SkillID
  * Name
  * Profession
@@ -60,34 +114,3 @@ Note: Change the names to be more suitable
  * VitalStatFlags (conditions, hexes)
  * AdditionalScript (in the db or local?)
  * (...?)
-
-= Harboe's suggestions =
-
-{{{
-<skill id="x" name="Backfire" recharge="20000" casttime="3000" type="SPELL" subtype="HEX" attribute="DOMINATION_MAGIC">
-        <usage>
-                <energy>15</energy>
-        </usage>
-        <targetting>
-                <foe /> <!-- could also have <ally />, <friendly />, whatever -->
-        </targetting>
-        <effects>
-                <hex trigger="CASTSPELL" duration="10000">
-                        <dmg base="35" max="140" />
-                </hex>
-        </effects>
-</skill>
- 
-<skill id="x" name="Immolate" recharge="5000" casttime="1000" type="SPELL" attribute="FIRE_MAGIC"> <-- notice how there's no subtype -->
-        <usage>
-                <energy>10</energy>
-        </usage>
-        <targetting>
-                <foe />
-        </targetting>
-        <effects>
-                <dmg base="20" max="75" />
-                <burn base="1" max="3" /> <!-- don't need to specify duration as BurnEffect uses the attributes base and max to calculate its duration -->
-        </effects>
-</skill>
-}}}
