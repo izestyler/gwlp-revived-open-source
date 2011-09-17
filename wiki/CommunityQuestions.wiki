@@ -1,1 +1,3 @@
+#summary You can place questions here if you dont want to use GR
+#labels Featured,Phase-Support
 <wiki:gadget url="http://www.google.com/moderator/static/moderator-embed-gadget.xml"  height="900" width="950"up_url="http://www.google.com/moderator/#15/e=bbe99&t=bbe99.40" up_sort="HOT" up_hl="en" />
