@@ -11,15 +11,11 @@ see this:
         <cost>
                 <energy>5</energy>
         </cost>
-        <targetting>
-                <foe>
-                        <effects>
-                                <hpdegen target="FOE" rate="-1" duration="20000">
-                                        <hpgain target="SELF" trigger="PARENT_END" base="30" max="120"/>
-                                </hpdegen>
-                        </effects>
-                </foe>
-        </targetting>
+        <effects selected="FOE">
+                <hpdegen target="FOE" rate="-1" duration="20000">
+                        <hpgain target="SELF" trigger="PARENT_END" base="30" max="120"/>
+                </hpdegen>
+        </effects>
 </skill>
 }}}
 
