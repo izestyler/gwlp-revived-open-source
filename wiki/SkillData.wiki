@@ -65,9 +65,11 @@ Keep in mind:
 <br/>
 == `<skill>` Fields ==
 
-Note: Change the names to be more suitable
 
-OBSOLETE:
+
+
+<br/>
+== OBSOLETE: ==
  * SkillID
  * Name
  * Profession
