@@ -58,6 +58,21 @@ Keep in mind:
 </skill>
 }}}
 
+== XAML by Fealty ==
+
+{{{
+<Skill Id="99" Name="Parasitic Bond" Type="Spell" Subtype="Hex" Attribute="7" CastTime="1000" Recharge="2000">
+  <Skill.Cost>
+    <Energy>5</Energy>
+  </Skill.Cost>
+  <Skill.Effects>
+    <HpDegen Target="Foe" Rate="-1" Duration="0:0:20">
+      <HpGain Target="Self" Trigger="ParentEnd" Base="30" Max="120" />
+    </HpDegen>
+  </Skill.Effects>
+</Skill>
+}}}
+
 <br/>
 == `<skill>` Fields ==
 
