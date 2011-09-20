@@ -7,16 +7,16 @@ We'll use a skill system based on an XML structure,
 see this:
 (...keep this up to date so we have a valid example)
 {{{
-<skill id="99" name="Parasitic Bond" type="SPELL" subtype="HEX" attribute="7"  casttime="1000" recharge="2000">
-        <cost>
-                <energy>5</energy>
-        </cost>
-        <effects selected="FOE">
-                <hpdegen target="FOE" rate="-1" duration="20000">
-                        <hpgain target="SELF" trigger="PARENT_END" base="30" max="120"/>
-                </hpdegen>
-        </effects>
-</skill>
+<Skill Id="99" Name="Parasitic Bond" Type="Spell" Subtype="Hex" Attribute="Necromancer.Curses" CastTime="1000" Recharge="2000">
+  <Skill.Cost>
+    <Energy>5</Energy>
+  </Skill.Cost>
+  <Skill.Effects Selected="Foe">
+    <HpDegen Target="Selected" Rate="-1" Duration="20000">
+      <HpGain Target="Self" Trigger="ParentEnd" Base="30" Max="120" />
+    </HpDegen>
+  </Skill.Effects>
+</Skill>
 }}}
 
 Keep in mind:
