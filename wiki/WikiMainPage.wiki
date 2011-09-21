@@ -1,0 +1,22 @@
+#summary Overview wiki page, used to hide the default one.
+#labels Featured
+
+= Introduction =
+
+Welcome to the GWLP:Revived project wiki pages!
+<br/>
+
+----
+== External pages ==
+
+These pages are available on game revision:
+  * [http://wiki.gamerevision.com/index.php/PacketDocumentation GR:Wiki packet docu] Warning! This is outdated, please use [PacketDoc this].
+  * [http://wiki.gamerevision.com/index.php/GWLP_R GR:Wiki setup howto]
+
+----
+== Internal pages ==
+=== Community ===
+ * [CommunityQuestions Questions & Answers]
+=== Development ===
+ * [PacketDoc The rough packet documentation]
+ * [SkillData The skill system]
