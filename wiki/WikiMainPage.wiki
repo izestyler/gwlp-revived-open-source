@@ -20,3 +20,5 @@ These pages are available on game revision:
 === Development ===
  * [PacketDoc The rough packet documentation]
  * [SkillData The skill system]
+<br/>
+The wiki pages list is available [http://code.google.com/p/gwlp-revived-open-source/w/list here]. You can also use this to create new pages.
