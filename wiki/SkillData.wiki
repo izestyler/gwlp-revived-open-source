@@ -7,7 +7,7 @@ We'll use a skill system based on an XML structure,
 see this:
 (...keep this up to date so we have a valid example)
 {{{
-<Skill Id="99" Name="ParasiticBond" Type="Spell.Hex" Attribute="Necromancer.Curses" CastTime="1000" Recharge="2000" RequiredTarget="Foes"
+<Skill Id="99" Name="ParasiticBond" Type="SpellHex" Attribute="NecromancerCurses" CastTime="1000" Recharge="2000" RequiredTarget="Foes"
        xmlns="xaml-SkillEngine" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Skill.Effects>
         <!--Cost (doesnt need an extra section)-->
