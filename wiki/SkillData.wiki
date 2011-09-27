@@ -11,7 +11,7 @@ see this:
        xmlns="xaml-SkillEngine" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Skill.Effects>
         <!--Cost (doesnt need an extra section)-->
-        <EnergyModification Target="Self" Trigger="OnCast" ValueType="Static" StaticValue="5" MaxValue="120"/>
+        <EnergyModification Target="Self" Trigger="OnCast" ValueType="Static" StaticValue="5"/>
         <!--Main effects-->
         <HealthRecharge Target="Selected" Trigger="OnCast" ValueType="Static" StaticValue="-1" Duration="20000">
             <HealthModification Target="Self" Trigger="OnBaseEnd" ValueType="Variable" BaseValue="30" MaxValue="120"/>
