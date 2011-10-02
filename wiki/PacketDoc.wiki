@@ -1,4 +1,4 @@
-#summary Documentation of Guildwars Packets
+#summary Documentation of GuildWars Packets
 
 = Login Server =
 
