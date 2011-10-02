@@ -1,0 +1,4 @@
+== P082_GeneralChatNoOwner ==
+
+ * *UInt16* Data1 
+ * *byte* Data2 

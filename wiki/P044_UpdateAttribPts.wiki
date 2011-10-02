@@ -1,0 +1,5 @@
+== P044_UpdateAttribPts ==
+
+ * *UInt32* ID1 
+ * *byte* FreePts 
+ * *byte* MaxPts 

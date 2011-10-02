@@ -1,0 +1,6 @@
+== P026_MovementDirection ==
+
+ * *UInt32* AgentID 
+ * *Single* DirX 
+ * *Single* DirY 
+ * *byte* MoveType 

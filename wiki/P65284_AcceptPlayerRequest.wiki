@@ -1,0 +1,7 @@
+== P65284_AcceptPlayerRequest ==
+
+ * *byte[]* Key1 
+ * *byte[]* Key2 _(ConstSize = true, MaxSize = 4)_
+ * *UInt32* AccID 
+ * *UInt32* CharID 
+ * *UInt32* MapID 

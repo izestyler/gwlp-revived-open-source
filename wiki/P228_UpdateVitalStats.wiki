@@ -1,0 +1,4 @@
+== P228_UpdateVitalStats ==
+
+ * *UInt32* ID1 
+ * *UInt32* VitalFlagsBitfield 

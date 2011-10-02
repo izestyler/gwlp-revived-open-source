@@ -1,0 +1,16 @@
+== P343_ItemGeneral ==
+
+ * *UInt32* ItemLocalID 
+ * *UInt32* ItemFileID _ 3d model file_ 
+ * *byte* Type 
+ * *byte* Data2 _ color?_ 
+ * *UInt16* Data3 
+ * *UInt16* Data4 
+ * *byte* Data5 
+ * *UInt32* ItemFlags _ bitfield containig rarity, uniqueness, is unidentified, etc._ 
+ * *UInt32* MerchantPrice 
+ * *UInt32* ItemID 
+ * *UInt32* Quantity 
+ * *string* ItemNameHash _(ConstSize = false, MaxSize = 64)_
+ * *byte* ArraySize1 
+ * *UInt32[]* ItemMods _ guessed: 1st byte: mod flags 2nd byte mod value_ _(ConstSize = false, MaxSize = 256)_

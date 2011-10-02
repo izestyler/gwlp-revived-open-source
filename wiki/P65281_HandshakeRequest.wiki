@@ -1,0 +1,5 @@
+== P65281_HandshakeRequest ==
+
+ * *byte[]* SecurityKey1 
+ * *byte[]* SecurityKey2 _(ConstSize = true, MaxSize = 8)_
+ * *UInt32* Port 

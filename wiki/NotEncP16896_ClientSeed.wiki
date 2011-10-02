@@ -1,0 +1,3 @@
+== NotEncP16896_ClientSeed ==
+
+ * *byte[]* Seed 

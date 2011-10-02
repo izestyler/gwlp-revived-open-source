@@ -1,0 +1,7 @@
+== P04_AccountLogin ==
+
+ * *UInt32* LoginCount 
+ * *byte[]* Password _(ConstSize = true, MaxSize = 24)_
+ * *string* Email _(ConstSize = false, MaxSize = 64)_
+ * *string* Data2 _(ConstSize = false, MaxSize = 20)_
+ * *string* CharName _(ConstSize = false, MaxSize = 20)_

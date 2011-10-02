@@ -1,0 +1,7 @@
+== P09_ReferToGameServer ==
+
+ * *UInt32* LoginCount 
+ * *byte[]* SecurityKey1 _(ConstSize = true, MaxSize = 4)_
+ * *UInt32* GameMapID 
+ * *byte[]* ServerConnectionInfo _(ConstSize = true, MaxSize = 24)_
+ * *byte[]* SecurityKey2 _(ConstSize = true, MaxSize = 4)_

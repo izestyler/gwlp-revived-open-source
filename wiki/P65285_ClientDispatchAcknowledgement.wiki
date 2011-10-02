@@ -1,0 +1,3 @@
+== P65285_ClientDispatchAcknowledgement ==
+
+ * *UInt32* AccID 

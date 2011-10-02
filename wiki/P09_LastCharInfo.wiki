@@ -1,0 +1,6 @@
+== P09_LastCharInfo ==
+
+ * *UInt32* LoginCount 
+ * *string* Data2 _(ConstSize = false, MaxSize = 20)_
+ * *UInt16* ArraySize1 
+ * *byte[]* Data3 _(ConstSize = false, MaxSize = 64)_

@@ -1,0 +1,5 @@
+== P32_AccountDataFromCC3 ==
+
+ * *UInt32* LoginCount 
+ * *UInt16* ArraySize1 
+ * *byte[]* Data2 _(ConstSize = false, MaxSize = 512)_

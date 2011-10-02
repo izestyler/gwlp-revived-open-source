@@ -1,0 +1,8 @@
+== P054_KeyboardMove ==
+
+ * *Single* X 
+ * *Single* Y 
+ * *UInt32* Plane 
+ * *Single* DirX 
+ * *Single* DirY 
+ * *UInt32* Type 

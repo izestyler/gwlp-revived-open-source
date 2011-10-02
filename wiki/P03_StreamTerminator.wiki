@@ -1,0 +1,4 @@
+== P03_StreamTerminator ==
+
+ * *UInt32* LoginCount 
+ * *UInt32* ErrorCode 

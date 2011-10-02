@@ -1,41 +1,5 @@
 #summary Documentation of GuildWars Packets
 
-= Login Server =
-
-== From Client ==
- * NotEncP1024_ClientVersion
- * NotEncP16896_ClientSeed
- * P00_KeepAlive
- * P01_ComputerUser
- * P010_CharacterPlayName
- * P02_ComputerHash
- * P04_AccountLogin
- * P05_AccountDataFromCc2
- * P09_LastCharInfo
- * P13_AccountLogout
- * P14_ExitOrConnectionUpdate
- * P15_ComputerHardware
- * P22_UnknownBeforeLogin
- * P32_AccountDataFromCc3
- * P33_AccountDataFromCc
- * P35_ClientId
- * P38_AcceptEula
- * P41_CharacterPlayInfo
- * P53_RequestResponse
- 
-
-== To Client ==
- * NotEncP5633_ServerSeed
- * P01_ComputerInfoReply
- * P03_StreamTerminator
- * P07_CharacterInfo
- * P09_ReferToGameServer
- * P17_AccountPermissions
- * P20_FriendListEnd
- * P22_AccountGuiSettings
- * P26_AllDistrictInfo
- * P38_SendResponse
-
 = Game Server =
 
 == From Client ==
@@ -47,13 +11,14 @@
  * P005_Ping
  * P054_KeyboardMove
  * P055_ClickLocation
- * P057_Keyboard_Rotate
- * P064_KeyboardMovementStop
+ * P056_FIXMEPickupItem
+ * P057_KeyboardRotate
+ * P064_KeyboardStopMovement
  * P093_ChatMessage
  * P129_RequestSpawnPoint
  * P137_InstanceLoadRequestPlayerData
- * P138_InstanceLoadRequestItem
- * P139_UnknownAfterIl
+ * P138_InstanceLoadRequestItems
+ * P139_UnknownAfterIL
 
 == To Client ==
  * NotEncP5633_ServerSeed
@@ -61,16 +26,18 @@
  * P002_PingReply
  * P018_InstanceLoadZoneDataHeader
  * P019_Heartbeat
- * P021_UpdateAgentMainStats
+ * P021_SpawnObject
+ * P022_FIXMEInvalidateAgentModel
  * P023_InstanceLoadFadeIntoMap
- * P026_KeyboardMoveStart
- * P030_GotoLocation
- * P032_KeyboardMoveSpeed
+ * P026_MovementDirection
+ * P030_MovementAim
+ * P032_MovementSpeedModifier
+ * P033_UpdateAgentPosition
  * P035_RotateAgent
- * P044_UpdateAttribPtrs
+ * P044_UpdateAttribPts
  * P074_NpcGeneralStats
  * P075_NpcModel
- * P077_UdpdateAgentAppearance
+ * P077_UpdateAgentAppearance
  * P081_GeneralChatMessage
  * P082_GeneralChatNoOwner
  * P085_GeneralChatOwner
@@ -78,7 +45,7 @@
  * P103_UpdateHero
  * P126_ZoneDataMapData
  * P127_ZoneDataPrepMapData
- * P141_DispatchConnectiontermination
+ * P141_DispatchConnectionTermination
  * P143_NpcName
  * P144_UpdateMorale
  * P147_UpdateGenericValueInt
@@ -105,3 +72,62 @@
  * P393_ItemStreamTerminator
  * P395_InstanceLoadDistrictInfo
  * P406_Dispatch
+
+== From Login Server ==
+ * P65281_HandshakeReply
+ * P65282_ServerStatsRequest
+ * P65283_BuildMapRequest
+ * P65284_AcceptPlayerRequest
+
+== To Login Server ==
+ * P65281_HandshakeRequest
+ * P65282_ServerStatsReply
+ * P65284_AcceptPlayerReply
+ * P65285_ClientDispatchAcknowledgement
+
+= Login Server =
+
+== From Client ==
+ * NotEncP1024_ClientVersion
+ * NotEncP16896_ClientSeed
+ * P00_KeepAlive
+ * P010_CharacterPlayName
+ * P01_ComputerUser
+ * P02_ComputerHash
+ * P04_AccountLogin
+ * P05_AccountDataFromCC2
+ * P09_LastCharInfo
+ * P13_Logout
+ * P14_ExitOrConnectionUpdate
+ * P15_ComputerHardware
+ * P22_UnknownBeforeLogin
+ * P32_AccountDataFromCC3
+ * P33_AccountDataFromCC
+ * P35_ClientID
+ * P38_AcceptEula
+ * P41_CharacterPlayInfo
+ * P53_RequestResponse
+
+== To Client ==
+ * NotEncP5633_ServerSeed
+ * P01_ComputerInfoReply
+ * P03_StreamTerminator
+ * P07_CharacterInfo
+ * P09_ReferToGameServer
+ * P17_AccountPermissions
+ * P20_FriendsListEnd
+ * P22_AccountGuiSettings
+ * P26_AllDistrictsInfo
+ * P38_SendResponse
+
+== From Game Server ==
+ * P65281_HandshakeRequest
+ * P65282_ServerStatsReply
+ * P65284_AcceptPlayerReply
+ * P65285_ClientDispatchAcknowledgement
+
+== To Game Server ==
+ * P65281_HandshakeReply
+ * P65282_ServerStatsRequest
+ * P65283_BuildMapRequest
+ * P65284_AcceptPlayerRequest

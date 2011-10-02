@@ -1,0 +1,4 @@
+== P304_ItemOwnerName ==
+
+ * *UInt32* ItemLocalID 
+ * *string* CharName _(ConstSize = false, MaxSize = 32)_

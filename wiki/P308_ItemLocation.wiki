@@ -1,0 +1,6 @@
+== P308_ItemLocation ==
+
+ * *UInt16* ItemStreamID 
+ * *UInt32* ItemLocalID 
+ * *UInt16* Storage 
+ * *byte* UserSlot 

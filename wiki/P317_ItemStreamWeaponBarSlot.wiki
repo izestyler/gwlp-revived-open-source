@@ -1,0 +1,6 @@
+== P317_ItemStreamWeaponBarSlot ==
+
+ * *UInt16* ItemStreamID 
+ * *byte* SlotNumber 
+ * *UInt32* Data3 
+ * *UInt32* Data4 

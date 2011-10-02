@@ -1,0 +1,4 @@
+== P33_AccountDataFromCC ==
+
+ * *UInt32* LoginCount 
+ * *UInt32* Data2 

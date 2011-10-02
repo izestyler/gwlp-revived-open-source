@@ -1,0 +1,3 @@
+== P371_InstanceLoadCharName ==
+
+ * *string* CharName 

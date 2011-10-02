@@ -1,0 +1,5 @@
+== P154_UpdatePublicProfessions ==
+
+ * *UInt32* ID1 
+ * *byte* Prof1 
+ * *byte* Prof2 

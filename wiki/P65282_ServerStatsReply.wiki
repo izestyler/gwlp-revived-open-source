@@ -1,0 +1,5 @@
+== P65282_ServerStatsReply ==
+
+ * *byte* Utilization 
+ * *UInt16* ArraySize1 
+ * *UInt16[]* MapIDs _(ConstSize = false, MaxSize = 1024)_

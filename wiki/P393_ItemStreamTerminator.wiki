@@ -1,0 +1,5 @@
+== P393_ItemStreamTerminator ==
+
+ * *byte* Data1 
+ * *UInt16* GameMapID 
+ * *UInt32* Data3 

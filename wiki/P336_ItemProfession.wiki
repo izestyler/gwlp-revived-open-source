@@ -1,0 +1,4 @@
+== P336_ItemProfession ==
+
+ * *UInt32* ItemLocalID 
+ * *byte* Profession 

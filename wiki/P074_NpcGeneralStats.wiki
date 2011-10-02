@@ -1,0 +1,11 @@
+== P074_NpcGeneralStats ==
+
+ * *UInt32* NpcID 
+ * *UInt32* FileID 
+ * *UInt32* Data1 
+ * *UInt32* Scale 
+ * *UInt32* Data2 
+ * *UInt32* ProfessionFlags _ bitfield: 0-15 profession stuff, 16 show name byte Profession_ 
+ * *byte* Level 
+ * *UInt16* ArraySize1 
+ * *byte[]* Appearance _(ConstSize = false, MaxSize = 8)_

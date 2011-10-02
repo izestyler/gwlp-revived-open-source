@@ -1,0 +1,4 @@
+== P141_DispatchConnectionTermination ==
+
+ * *UInt16* GameMapID 
+ * *byte* Data1 

@@ -1,0 +1,3 @@
+== P65284_AcceptPlayerReply ==
+
+ * *UInt32* AccID 

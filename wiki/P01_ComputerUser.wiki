@@ -1,0 +1,4 @@
+== P01_ComputerUser ==
+
+ * *string* Data1 
+ * *string* Data2 _(ConstSize = false, MaxSize = 32)_

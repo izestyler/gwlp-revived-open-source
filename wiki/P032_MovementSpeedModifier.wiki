@@ -1,0 +1,5 @@
+== P032_MovementSpeedModifier ==
+
+ * *UInt32* AgentID 
+ * *Single* Speed 
+ * *byte* MoveType 

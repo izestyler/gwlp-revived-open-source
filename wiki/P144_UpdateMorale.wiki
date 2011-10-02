@@ -1,0 +1,4 @@
+== P144_UpdateMorale ==
+
+ * *UInt32* ID1 
+ * *UInt32* Morale 

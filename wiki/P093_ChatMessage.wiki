@@ -1,0 +1,4 @@
+== P093_ChatMessage ==
+
+ * *string* Message 
+ * *UInt32* ID1 
