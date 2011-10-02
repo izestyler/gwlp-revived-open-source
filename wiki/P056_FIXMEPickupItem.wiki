@@ -1,5 +1,5 @@
 == P056_FIXMEPickupItem ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || AgentID _was ID!!_ ||  ||
 || *byte* || Data1 ||  ||

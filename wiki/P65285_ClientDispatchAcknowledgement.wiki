@@ -1,4 +1,4 @@
 == P65285_ClientDispatchAcknowledgement ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || AccID ||  ||

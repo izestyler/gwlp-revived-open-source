@@ -1,5 +1,5 @@
 == P143_NpcName ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || AgentID ||  ||
 || *UInt16* || ArraySize1 ||  ||

@@ -1,4 +1,4 @@
 == P38_AcceptEula ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *byte* || EulaNumber ||  ||

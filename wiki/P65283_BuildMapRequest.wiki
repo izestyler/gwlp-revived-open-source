@@ -1,4 +1,4 @@
 == P65283_BuildMapRequest ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || MapID ||  ||

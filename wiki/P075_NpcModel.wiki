@@ -1,5 +1,5 @@
 == P075_NpcModel ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || NpcID ||  ||
 || *UInt16* || ArraySize1 ||  ||

@@ -1,5 +1,5 @@
 == P064_KeyboardStopMovement ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *Single* || X ||  ||
 || *Single* || Y ||  ||

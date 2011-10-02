@@ -1,5 +1,5 @@
 == P01_ComputerInfoReply ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || StaticData1 ||  ||
 || *UInt32* || LoginCount ||  ||

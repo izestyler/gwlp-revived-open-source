@@ -1,5 +1,5 @@
 == P17_AccountPermissions ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || LoginCount ||  ||
 || *UInt32* || Territory _ 2 europe, 0 america_ ||  ||

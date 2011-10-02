@@ -1,5 +1,5 @@
 == P055_ClickLocation ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *Single* || Data1 ||  ||
 || *Single* || Data2 ||  ||

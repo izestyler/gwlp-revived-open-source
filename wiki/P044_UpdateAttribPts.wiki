@@ -1,5 +1,5 @@
 == P044_UpdateAttribPts ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || ID1 ||  ||
 || *byte* || FreePts ||  ||

@@ -1,5 +1,5 @@
 == P127_ZoneDataPrepMapData ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || Data1 ||  ||
 || *UInt32* || Data2 ||  ||

@@ -1,4 +1,4 @@
 == P53_RequestResponse ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || LoginCount ||  ||

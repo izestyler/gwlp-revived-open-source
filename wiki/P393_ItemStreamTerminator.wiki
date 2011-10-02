@@ -1,5 +1,5 @@
 == P393_ItemStreamTerminator ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *byte* || Data1 ||  ||
 || *UInt16* || GameMapID ||  ||

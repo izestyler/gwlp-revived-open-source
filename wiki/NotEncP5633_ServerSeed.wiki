@@ -1,4 +1,4 @@
 == NotEncP5633_ServerSeed ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *byte[]* || Seed ||  ||

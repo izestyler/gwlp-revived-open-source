@@ -1,5 +1,5 @@
 == P65284_AcceptPlayerRequest ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *byte[]* || Key1 ||  ||
 || *byte[]* || Key2 || _(ConstSize = true, MaxSize = 4)_ ||

@@ -1,5 +1,5 @@
 == P20_FriendsListEnd ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || LoginCount ||  ||
 || *UInt32* || StaticData1 ||  ||

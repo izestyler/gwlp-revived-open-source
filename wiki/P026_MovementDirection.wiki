@@ -1,5 +1,5 @@
 == P026_MovementDirection ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || AgentID ||  ||
 || *Single* || DirX ||  ||

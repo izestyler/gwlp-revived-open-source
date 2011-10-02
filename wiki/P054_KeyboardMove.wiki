@@ -1,5 +1,5 @@
 == P054_KeyboardMove ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *Single* || X ||  ||
 || *Single* || Y ||  ||

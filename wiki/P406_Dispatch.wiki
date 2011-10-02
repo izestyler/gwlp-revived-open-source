@@ -1,5 +1,5 @@
 == P406_Dispatch ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *byte[]* || ConnectionInfo ||  ||
 || *byte[]* || Key1 || _(ConstSize = true, MaxSize = 4)_ ||

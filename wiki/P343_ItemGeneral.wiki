@@ -1,5 +1,5 @@
 == P343_ItemGeneral ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || ItemLocalID ||  ||
 || *UInt32* || ItemFileID _ 3d model file_ ||  ||

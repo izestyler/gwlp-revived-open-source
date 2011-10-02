@@ -1,5 +1,5 @@
 == P09_ReferToGameServer ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || LoginCount ||  ||
 || *byte[]* || SecurityKey1 || _(ConstSize = true, MaxSize = 4)_ ||

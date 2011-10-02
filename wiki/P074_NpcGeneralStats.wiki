@@ -1,5 +1,5 @@
 == P074_NpcGeneralStats ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || NpcID ||  ||
 || *UInt32* || FileID ||  ||

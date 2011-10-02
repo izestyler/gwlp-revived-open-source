@@ -1,5 +1,5 @@
 == P221_UpdateFactionPts ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || ExpPts ||  ||
 || *UInt32* || KurzFree ||  ||

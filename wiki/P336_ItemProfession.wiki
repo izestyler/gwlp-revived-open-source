@@ -1,5 +1,5 @@
 == P336_ItemProfession ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || ItemLocalID ||  ||
 || *byte* || Profession ||  ||

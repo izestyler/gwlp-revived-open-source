@@ -1,5 +1,5 @@
 == P098_UpdateAgentEquipment ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || ID1 ||  ||
 || *UInt32* || Weapon1 ||  ||

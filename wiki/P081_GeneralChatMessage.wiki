@@ -1,4 +1,4 @@
 == P081_GeneralChatMessage ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *string* || Message ||  ||

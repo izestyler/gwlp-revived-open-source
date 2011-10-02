@@ -1,5 +1,5 @@
 == P15_ComputerHardware ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt16* || ArraySize1 ||  ||
 || *byte[]* || Data1 || _(ConstSize = false, MaxSize = 92)_ ||

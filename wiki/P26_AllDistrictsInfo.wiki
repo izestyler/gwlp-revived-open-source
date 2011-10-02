@@ -1,5 +1,5 @@
 == P26_AllDistrictsInfo ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || Language ||  ||
 || *byte* || ArraySize1 ||  ||

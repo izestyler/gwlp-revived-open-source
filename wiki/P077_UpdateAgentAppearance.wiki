@@ -1,5 +1,5 @@
 == P077_UpdateAgentAppearance ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || Data1 ||  ||
 || *UInt32* || ID1 ||  ||

@@ -1,5 +1,5 @@
 == P65282_ServerStatsReply ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *byte* || Utilization ||  ||
 || *UInt16* || ArraySize1 ||  ||

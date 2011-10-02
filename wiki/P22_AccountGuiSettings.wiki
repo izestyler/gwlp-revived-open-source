@@ -1,5 +1,5 @@
 == P22_AccountGuiSettings ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || LoginCount ||  ||
 || *UInt16* || ArraySize1 ||  ||

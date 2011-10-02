@@ -1,5 +1,5 @@
 == P126_ZoneDataMapData ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt16* || ArraySize1 ||  ||
 || *byte[]* || Data1 || _(ConstSize = false, MaxSize = 256)_ ||

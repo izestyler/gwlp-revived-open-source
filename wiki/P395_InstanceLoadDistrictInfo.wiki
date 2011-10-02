@@ -1,5 +1,5 @@
 == P395_InstanceLoadDistrictInfo ==
-| *Datatype* || *Field* || *Comment* ||
+|| *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || LocalID ||  ||
 || *UInt16* || GameMapID ||  ||
