@@ -1,4 +1,5 @@
 == P01_ComputerUser ==
-
- * *string* Data1 
- * *string* Data2 _(ConstSize = false, MaxSize = 32)_
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *string* || Data1 ||  ||
+|| *string* || Data2 || _(ConstSize = false, MaxSize = 32)_ ||

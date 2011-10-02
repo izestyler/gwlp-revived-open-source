@@ -1,3 +1,4 @@
 == P022_FIXMEInvalidateAgentModel ==
-
- * *UInt32* AgentID 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || AgentID ||  ||

@@ -1,5 +1,6 @@
 == P064_KeyboardStopMovement ==
-
- * *Single* X 
- * *Single* Y 
- * *UInt32* Plane 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *Single* || X ||  ||
+|| *Single* || Y ||  ||
+|| *UInt32* || Plane ||  ||

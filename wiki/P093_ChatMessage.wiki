@@ -1,4 +1,5 @@
 == P093_ChatMessage ==
-
- * *string* Message 
- * *UInt32* ID1 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *string* || Message ||  ||
+|| *UInt32* || ID1 ||  ||

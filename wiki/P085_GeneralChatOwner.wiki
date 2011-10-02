@@ -1,4 +1,5 @@
 == P085_GeneralChatOwner ==
-
- * *UInt16* Data1 
- * *byte* Data2 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || Data1 ||  ||
+|| *byte* || Data2 ||  ||

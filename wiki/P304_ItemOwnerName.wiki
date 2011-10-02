@@ -1,4 +1,5 @@
 == P304_ItemOwnerName ==
-
- * *UInt32* ItemLocalID 
- * *string* CharName _(ConstSize = false, MaxSize = 32)_
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || ItemLocalID ||  ||
+|| *string* || CharName || _(ConstSize = false, MaxSize = 32)_ ||

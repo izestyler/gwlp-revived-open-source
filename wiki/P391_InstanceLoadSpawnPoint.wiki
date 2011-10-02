@@ -1,8 +1,9 @@
 == P391_InstanceLoadSpawnPoint ==
-
- * *UInt32* GameMapFileID 
- * *Single* SpawnX 
- * *Single* SpawnY 
- * *UInt16* SpawnPlane 
- * *byte* Data5 
- * *byte* Data6 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || GameMapFileID ||  ||
+|| *Single* || SpawnX ||  ||
+|| *Single* || SpawnY ||  ||
+|| *UInt16* || SpawnPlane ||  ||
+|| *byte* || Data5 ||  ||
+|| *byte* || Data6 ||  ||

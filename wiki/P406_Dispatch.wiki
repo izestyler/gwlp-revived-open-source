@@ -1,8 +1,9 @@
 == P406_Dispatch ==
-
- * *byte[]* ConnectionInfo 
- * *byte[]* Key1 _(ConstSize = true, MaxSize = 4)_
- * *byte* Region 
- * *UInt16* ZoneID 
- * *byte* IsOutpost 
- * *byte[]* Key2 _(ConstSize = true, MaxSize = 4)_
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *byte[]* || ConnectionInfo ||  ||
+|| *byte[]* || Key1 || _(ConstSize = true, MaxSize = 4)_ ||
+|| *byte* || Region ||  ||
+|| *UInt16* || ZoneID ||  ||
+|| *byte* || IsOutpost ||  ||
+|| *byte[]* || Key2 || _(ConstSize = true, MaxSize = 4)_ ||

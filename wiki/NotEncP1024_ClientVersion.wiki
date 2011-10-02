@@ -1,6 +1,7 @@
 == NotEncP1024_ClientVersion ==
-
- * *UInt16* Data1 
- * *UInt32* ClientVersion 
- * *UInt32* Data3 
- * *UInt32* Data4 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || Data1 ||  ||
+|| *UInt32* || ClientVersion ||  ||
+|| *UInt32* || Data3 ||  ||
+|| *UInt32* || Data4 ||  ||

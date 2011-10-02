@@ -1,4 +1,5 @@
 == P139_UnknownAfterIL ==
-
- * *UInt16* ArraySize1 
- * *byte[]* Data1 _(ConstSize = false, MaxSize = 108)_
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || ArraySize1 ||  ||
+|| *byte[]* || Data1 || _(ConstSize = false, MaxSize = 108)_ ||

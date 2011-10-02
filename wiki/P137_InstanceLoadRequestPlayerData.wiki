@@ -1,3 +1,4 @@
 == P137_InstanceLoadRequestPlayerData ==
-
- * *byte[]* Data1 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *byte[]* || Data1 ||  ||

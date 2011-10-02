@@ -1,6 +1,7 @@
 == P26_AllDistrictsInfo ==
-
- * *UInt32* Language 
- * *byte* ArraySize1 
- * *byte[]* Data2 _(ConstSize = false, MaxSize = 11)_
- * *byte* Data4 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || Language ||  ||
+|| *byte* || ArraySize1 ||  ||
+|| *byte[]* || Data2 || _(ConstSize = false, MaxSize = 11)_ ||
+|| *byte* || Data4 ||  ||

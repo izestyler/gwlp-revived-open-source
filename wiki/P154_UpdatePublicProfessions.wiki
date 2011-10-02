@@ -1,5 +1,6 @@
 == P154_UpdatePublicProfessions ==
-
- * *UInt32* ID1 
- * *byte* Prof1 
- * *byte* Prof2 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || ID1 ||  ||
+|| *byte* || Prof1 ||  ||
+|| *byte* || Prof2 ||  ||

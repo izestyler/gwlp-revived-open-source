@@ -1,4 +1,5 @@
 == P144_UpdateMorale ==
-
- * *UInt32* ID1 
- * *UInt32* Morale 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || ID1 ||  ||
+|| *UInt32* || Morale ||  ||

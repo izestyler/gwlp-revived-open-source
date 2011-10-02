@@ -1,8 +1,9 @@
 == P41_CharacterPlayInfo ==
-
- * *UInt32* Data1 
- * *UInt32* Data2 
- * *UInt32* Data3 
- * *UInt32* Data4 
- * *UInt32* Data5 
- * *UInt32* Data6 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || Data1 ||  ||
+|| *UInt32* || Data2 ||  ||
+|| *UInt32* || Data3 ||  ||
+|| *UInt32* || Data4 ||  ||
+|| *UInt32* || Data5 ||  ||
+|| *UInt32* || Data6 ||  ||

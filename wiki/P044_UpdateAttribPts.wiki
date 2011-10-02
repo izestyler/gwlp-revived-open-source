@@ -1,5 +1,6 @@
 == P044_UpdateAttribPts ==
-
- * *UInt32* ID1 
- * *byte* FreePts 
- * *byte* MaxPts 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || ID1 ||  ||
+|| *byte* || FreePts ||  ||
+|| *byte* || MaxPts ||  ||

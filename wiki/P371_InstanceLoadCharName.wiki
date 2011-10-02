@@ -1,3 +1,4 @@
 == P371_InstanceLoadCharName ==
-
- * *string* CharName 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *string* || CharName ||  ||

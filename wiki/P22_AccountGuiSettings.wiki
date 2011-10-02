@@ -1,5 +1,6 @@
 == P22_AccountGuiSettings ==
-
- * *UInt32* LoginCount 
- * *UInt16* ArraySize1 
- * *byte[]* RawData _(ConstSize = false, MaxSize = 1024)_
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || LoginCount ||  ||
+|| *UInt16* || ArraySize1 ||  ||
+|| *byte[]* || RawData || _(ConstSize = false, MaxSize = 1024)_ ||

@@ -1,4 +1,5 @@
 == P018_InstanceLoadZoneDataHeader ==
-
- * *UInt16* ArraySize1 
- * *byte[]* Data1 _(ConstSize = false, MaxSize = 512)_
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || ArraySize1 ||  ||
+|| *byte[]* || Data1 || _(ConstSize = false, MaxSize = 512)_ ||

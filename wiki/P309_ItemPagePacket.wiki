@@ -1,8 +1,9 @@
 == P309_ItemPagePacket ==
-
- * *UInt16* Data1 
- * *byte* Data2 
- * *byte* Data3 
- * *UInt16* Data4 
- * *byte* Data5 
- * *UInt32* ItemLocalID 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || Data1 ||  ||
+|| *byte* || Data2 ||  ||
+|| *byte* || Data3 ||  ||
+|| *UInt16* || Data4 ||  ||
+|| *byte* || Data5 ||  ||
+|| *UInt32* || ItemLocalID ||  ||

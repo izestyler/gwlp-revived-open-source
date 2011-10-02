@@ -1,3 +1,4 @@
 == P38_AcceptEula ==
-
- * *byte* EulaNumber 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *byte* || EulaNumber ||  ||

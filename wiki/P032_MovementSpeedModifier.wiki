@@ -1,5 +1,6 @@
 == P032_MovementSpeedModifier ==
-
- * *UInt32* AgentID 
- * *Single* Speed 
- * *byte* MoveType 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || AgentID ||  ||
+|| *Single* || Speed ||  ||
+|| *byte* || MoveType ||  ||

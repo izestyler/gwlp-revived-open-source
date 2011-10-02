@@ -1,6 +1,7 @@
 == P033_UpdateAgentPosition ==
-
- * *UInt32* AgentID 
- * *Single* PosX 
- * *Single* PosY 
- * *UInt16* Plane 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || AgentID ||  ||
+|| *Single* || PosX ||  ||
+|| *Single* || PosY ||  ||
+|| *UInt16* || Plane ||  ||

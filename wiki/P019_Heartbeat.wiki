@@ -1,3 +1,4 @@
 == P019_Heartbeat ==
-
- * *UInt32* Data1 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || Data1 ||  ||

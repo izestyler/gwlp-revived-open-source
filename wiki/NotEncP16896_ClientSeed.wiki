@@ -1,3 +1,4 @@
 == NotEncP16896_ClientSeed ==
-
- * *byte[]* Seed 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *byte[]* || Seed ||  ||

@@ -1,5 +1,6 @@
 == P150_UpdateGenericValueFloat ==
-
- * *UInt32* ValueID 
- * *UInt32* ID1 
- * *float* Value 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || ValueID ||  ||
+|| *UInt32* || ID1 ||  ||
+|| *float* || Value ||  ||

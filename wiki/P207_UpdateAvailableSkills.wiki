@@ -1,4 +1,5 @@
 == P207_UpdateAvailableSkills ==
-
- * *UInt16* ArraySize1 _ counts in UInt32_ 
- * *byte[]* SkillsBitfield _(ConstSize = false, MaxSize = 512)_
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || ArraySize1 _ counts in UInt32_ ||  ||
+|| *byte[]* || SkillsBitfield || _(ConstSize = false, MaxSize = 512)_ ||

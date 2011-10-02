@@ -1,6 +1,7 @@
 == P026_MovementDirection ==
-
- * *UInt32* AgentID 
- * *Single* DirX 
- * *Single* DirY 
- * *byte* MoveType 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || AgentID ||  ||
+|| *Single* || DirX ||  ||
+|| *Single* || DirY ||  ||
+|| *byte* || MoveType ||  ||

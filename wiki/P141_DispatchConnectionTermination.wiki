@@ -1,4 +1,5 @@
 == P141_DispatchConnectionTermination ==
-
- * *UInt16* GameMapID 
- * *byte* Data1 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || GameMapID ||  ||
+|| *byte* || Data1 ||  ||

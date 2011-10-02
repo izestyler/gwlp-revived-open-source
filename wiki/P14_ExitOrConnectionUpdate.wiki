@@ -1,3 +1,4 @@
 == P14_ExitOrConnectionUpdate ==
-
- * *UInt32* ExitCode 
+| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || ExitCode ||  ||
