@@ -1,0 +1,4 @@
+== P223_UpdateMaxLuxonFaction ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || MaxLuxonFaction ||  ||

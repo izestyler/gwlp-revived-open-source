@@ -1,9 +1,9 @@
 == P309_ItemPagePacket ==
 || *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
-|| *UInt16* || Data1 ||  ||
-|| *byte* || Data2 ||  ||
-|| *byte* || Data3 ||  ||
-|| *UInt16* || Data4 ||  ||
-|| *byte* || Data5 ||  ||
+|| *UInt16* || ItemStreamID ||  ||
+|| *byte* || StorageType || _Bags=0x1,Equiped=0x2,NotCollected=0x3 ???,Storage=0x4,StorageMaterial=0x5_  ||
+|| *byte* || StorageID || _see GameServer.Enums.ItemStorage_  ||
+|| *UInt16* || PageID ||  ||
+|| *byte* || Slots ||  ||
 || *UInt32* || ItemLocalID ||  ||

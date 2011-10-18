@@ -2,5 +2,4 @@
 || *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || AgentID ||  ||
-|| *UInt16* || ArraySize1 ||  ||
-|| *byte[]* || NameHash || _(ConstSize = false, MaxSize = 64)_ ||
+|| *string* || Name || _(ConstSize = false, MaxSize = 32)_ ||

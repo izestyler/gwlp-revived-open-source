@@ -3,5 +3,5 @@
 || *UInt16* || Header || ||
 || *UInt16* || ItemStreamID ||  ||
 || *UInt32* || ItemLocalID ||  ||
-|| *UInt16* || Storage ||  ||
+|| *UInt16* || PageID ||  ||
 || *byte* || UserSlot ||  ||

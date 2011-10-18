@@ -2,7 +2,25 @@
 || *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
 || *UInt32* || LoginCount ||  ||
-|| *byte[]* || Password || _(ConstSize = true, MaxSize = 24)_ ||
-|| *string* || Email || _(ConstSize = false, MaxSize = 64)_ ||
+|| *byte[]* || ClPassword || _(ConstSize = true, MaxSize = 24)_ ||
+|| *string* || ClEmail || _(ConstSize = false, MaxSize = 64)_ ||
 || *string* || Data2 || _(ConstSize = false, MaxSize = 20)_ ||
 || *string* || CharName || _(ConstSize = false, MaxSize = 20)_ ||
+|| *#region* || Implementation of IHasAccountData ||  ||
+|| *string* || Email ||  ||
+|| ** || { ||  ||
+|| *get* || { return ClEmail } ||  ||
+|| *set* || { ClEmail = value } ||  ||
+|| ** || } ||  ||
+|| *string* || Password ||  ||
+|| ** || { ||  ||
+|| ** || get ||  ||
+|| ** || { ||  ||
+|| *var* || pw = "" ||  ||
+|| *var* || raw = (byte[])ClPassword.Clone() ||  ||
+|| *raw[0]* || /= 2 || _ because UTF16 has 2 bytes per character_  ||
+|| *raw[1]* || = 0 || _ because that was not set correctly by the client_  ||
+|| *RawConverter.ReadUTF16(ref* || pw, new MemoryStream(raw)) ||  ||
+|| *return* || pw ||  ||
+|| ** || } ||  ||
+|| *set* || { ClPassword =new byte[0] ||  ||
