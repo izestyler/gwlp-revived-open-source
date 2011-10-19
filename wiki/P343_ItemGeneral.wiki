@@ -8,7 +8,7 @@
 || *UInt16* || DyeColor ||  ||
 || *UInt16* || Data4 || _ Standard Color?_  ||
 || *byte* || CanBeDyed ||  ||
-|| *UInt32* || Flags || _ have decoding (miracle444)_ ||
+|| *UInt32* || Flags ||  ||
 || *UInt32* || MerchantPrice ||  ||
 || *UInt32* || ItemID || _sword 46C2, axe 45D4 icon?_  ||
 || *UInt32* || Quantity ||  ||

@@ -1,0 +1,4 @@
+== P116_DialogBody ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *string* || DialogData ||  ||

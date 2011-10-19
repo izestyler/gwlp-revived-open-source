@@ -1,0 +1,5 @@
+== P306_EquipBag2 ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *byte* || StorageID || _ enum ItemStorage_  ||
+|| *UInt32* || BagLocalID ||  ||

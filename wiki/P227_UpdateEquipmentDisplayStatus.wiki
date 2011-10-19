@@ -1,0 +1,5 @@
+== P227_UpdateEquipmentDisplayStatus ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || DisplayStatus || _ enum EquipmentDisplayPart*EquipmentDisplayStatus_  ||
+|| *UInt32* || DisplayPart ||  ||

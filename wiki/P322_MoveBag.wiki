@@ -1,0 +1,6 @@
+== P322_MoveBag ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || ItemStreamID ||  ||
+|| *byte* || FromStorageID || _ enum ItemStorage_  ||
+|| *byte* || ToStorageID ||  ||

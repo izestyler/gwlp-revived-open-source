@@ -1,0 +1,7 @@
+== P048_UpdateAttributeLevel ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || AgentID ||  ||
+|| *byte* || AttributeID || _ enum Attribute_  ||
+|| *byte* || NormalLevel ||  ||
+|| *byte* || CurrentLevel ||  ||

@@ -1,6 +1,5 @@
-== P150_UpdateGenericValueFloat ==
+== P056_RemoveSkillEffect ==
 || *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
-|| *UInt32* || ValueID ||  ||
 || *UInt32* || AgentID ||  ||
-|| *Single* || Value ||  ||
+|| *UInt32* || SkillEffectID ||  ||

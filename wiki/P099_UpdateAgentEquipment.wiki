@@ -1,0 +1,6 @@
+== P099_UpdateAgentEquipment ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || AgentID ||  ||
+|| *UInt32* || EquipmentSlot || _ enum AgentEquipment_  ||
+|| *UInt32* || ItemLocalID ||  ||

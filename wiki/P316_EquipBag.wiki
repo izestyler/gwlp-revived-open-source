@@ -1,0 +1,8 @@
+== P316_EquipBag ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || ItemStreamID ||  ||
+|| *byte* || StorageID || _ enum ItemStorage_  ||
+|| *UInt16* || PageID || _ new page id for the bag_  ||
+|| *byte* || Slots ||  ||
+|| *UInt32* || BagLocalID ||  ||
