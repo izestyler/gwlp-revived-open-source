@@ -3,7 +3,7 @@
 
 = Introduction =
 
-We'll use a skill system based on an XML structure,
+We'll use a skill system based on an XAML structure,
 see this:
 (...keep this up to date so we have a valid example)
 {{{
@@ -75,10 +75,23 @@ Keep in mind:
 }}}
 
 <br/>
-== `<skill>` Fields ==
+== Class:Skill Fields ==
+ * SkillID
+ * Name
+ * Type
+ * Attribute
+ * Cast
+ * Recharge
+ * RequiredTarget
 
-
-
+<br/>
+== Class:SkillEffect Fields ==
+ * Target: Enum, could be "Self" or "Selected"
+ * Trigger: Enum, could have various things such a "OnCast", "OnBaseEffectEnd"
+ * ValueType: Enum, "Static" or "Variable"
+ * StaticValue: some kind of value, used when ValueType == Static
+ * BaseValue: some kind of value, at attribute lvl 0, used when ValueType == Variable
+ * MaxValue: some kind of value, at attribute lvl 15, used when ValueType == Variable
 
 <br/>
 == OBSOLETE: ==
