@@ -18,7 +18,15 @@ GW uses some kind of html code to specify Dialogues.
 || male form`[f: "female form"]` || Displays Text based on Character gender ||
 
 
+
+
+
+
 *The Following seems to Work for Hashed Format strings only!*
+
+
+
+
 
 *Fomat Strings:*
 
