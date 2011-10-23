@@ -16,3 +16,21 @@ GW uses some kind of html code to specify Dialogues.
 *Special Strings:*
 
 || male form`[f: "female form"]` || Displays Text based on Character gender ||
+
+
+*Fomat Strings:*
+
+|| %numX% || inserts number argument X into the string and determines if plural or not||
+|| %strX% || inserts string argument X into the string ||
+
+*Argument numerating:*
+
+str1 = 0x0A,0x01    str2 = 0x0B,0x01
+num1 = 0x01,0x01    num2 = 0x02,0x01
+
+*Splitting Arguments*
+
+|| 0x01,0x00 || End of Argument ||
+|| 0x01,0x00 || Number Argument ||
+|| 0x02,0x00 || Hash ||
+|| 0x03,0x00 || Plain Text ||
