@@ -1,4 +1,5 @@
 #summary Description of GW's Dialog Format.
+#labels Featured
 
 = Introduction =
 GW uses some kind of html code to specify Dialogues.
@@ -16,3 +17,11 @@ GW uses some kind of html code to specify Dialogues.
 *Special Strings:*
 
 || male form`[f: "female form"]` || Displays Text based on Character gender ||
+
+*Dialog Buttons*
+
+SkillIcon displays the Icon of the Skill specified in Flag including Tooltip.
+
+For all other icons see:
+
+http://i55.tinypic.com/2useubr.png
