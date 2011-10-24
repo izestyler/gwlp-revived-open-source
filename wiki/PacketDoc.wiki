@@ -1,4 +1,5 @@
 #summary Documentation of GuildWars Packets
+#labels Featured
 
 = Game Server =
 
@@ -19,6 +20,8 @@
  * [P137_InstanceLoadRequestPlayerData]
  * [P138_InstanceLoadRequestItems]
  * [P139_UnknownAfterIL]
+
+ * 129 Packs to Go
 
 == To Client ==
  * [NotEncP5633_ServerSeed]
@@ -102,6 +105,8 @@
  * [P395_InstanceLoadDistrictInfo]
  * [P406_Dispatch]
 
+ * 395 Packs to Go
+
 == From Login Server ==
  * [P65281_HandshakeReply]
  * [P65282_ServerStatsRequest]
@@ -138,7 +143,7 @@
  * [P38_AcceptEula]
  * [P41_CharacterPlayInfo]
  * [P53_RequestResponse]
-
+ * 36 Packs to Go
 == To Client ==
  * [NotEncP5633_ServerSeed]
  * [P01_ComputerInfoReply]
@@ -150,7 +155,7 @@
  * [P22_AccountGuiSettings]
  * [P26_AllDistrictsInfo]
  * [P38_SendResponse]
-
+ * 27 Packs to Go
 == From Game Server ==
  * [P65281_HandshakeRequest]
  * [P65282_ServerStatsReply]
