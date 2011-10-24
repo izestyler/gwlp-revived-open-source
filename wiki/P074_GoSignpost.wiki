@@ -1,5 +1,5 @@
-== P056_FIXMEPickupItem ==
+== P074_GoSignpost ==
 || *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
-|| *UInt32* || AgentID || _was ID!!_  ||
+|| *UInt32* || AgentID ||  ||
 || *byte* || Flag ||  ||

@@ -1,5 +1,4 @@
 #summary Documentation of GuildWars Packets
-#labels Featured
 
 = Game Server =
 
@@ -10,18 +9,59 @@
  * [P003_PingReply]
  * [P004_RequestHeartBeat]
  * [P005_Ping]
+ * [P013_SetHeroMode]
+ * [P014_LockHeroTarget]
+ * [P017_ChangeHeroSkillSlotState]
+ * [P018_CommandHero]
+ * [P019_CommandAll]
+ * [P022_AddHero]
+ * [P023_KickHero]
+ * [P027_CallTarget]
+ * [P031_AttackTarget]
+ * [P032_UseAttackSkill]
+ * [P033_CancelAction]
+ * [P034_DropBuff]
+ * [P037_DropItem]
+ * [P040_DropGold]
+ * [P041_EquipItem]
+ * [P043_ChangeWeaponSet]
+ * [P044_GoPlayer]
+ * [P046_DonateFaction]
+ * [P050_InteractNPC]
+ * [P052_PressDialogButton]
  * [P054_KeyboardMove]
  * [P055_ClickLocation]
  * [P056_FIXMEPickupItem]
  * [P057_KeyboardRotate]
+ * [P058_ChangeSecondProfession]
+ * [P063_UseSkill]
  * [P064_KeyboardStopMovement]
+ * [P074_GoSignpost]
+ * [P076_OpenChest]
+ * [P084_SetSkillbarSkill]
+ * [P092_SkipCinematic]
  * [P093_ChatMessage]
+ * [P101_IdentifyItem]
+ * [P107_MoveItem]
+ * [P108_AcceptAllItems]
+ * [P112_SalvageItem]
+ * [P115_SalvageMaterials]
+ * [P116_SalvageMod]
+ * [P117_ChangeGold]
+ * [P119_UseItem]
  * [P129_RequestSpawnPoint]
  * [P137_InstanceLoadRequestPlayerData]
  * [P138_InstanceLoadRequestItems]
  * [P139_UnknownAfterIL]
-
- * 129 Packs to Go
+ * [P148_SwitchMode]
+ * [P152_AddNPC]
+ * [P154_InvitePlayer]
+ * [P158_EnterChallenge]
+ * [P160_ReturnToOutpost]
+ * [P161_KickNPC]
+ * [P169_TravelGH]
+ * [P170_RequestMapChange]
+ * [P171_LeaveGH]
 
 == To Client ==
  * [NotEncP5633_ServerSeed]
@@ -30,7 +70,7 @@
  * [P018_InstanceLoadZoneDataHeader]
  * [P019_Heartbeat]
  * [P021_SpawnObject]
- * [P022_FIXMEInvalidateAgentModel]
+ * [P022_DespawnObject]
  * [P023_InstanceLoadFadeIntoMap]
  * [P026_MovementDirection]
  * [P030_MovementAim]
@@ -52,6 +92,7 @@
  * [P099_UpdateAgentEquipment]
  * [P101_NpcStatsTerminator]
  * [P103_UpdateHero]
+ * [P114_DialogButton]
  * [P116_DialogBody]
  * [P117_DialogSender]
  * [P126_ZoneDataMapData]
@@ -63,6 +104,7 @@
  * [P148_SkillVisuals]
  * [P150_UpdateGenericValueFloat]
  * [P151_InflictDamage]
+ * [P153_SpeechBubble]
  * [P154_UpdatePublicProfessions]
  * [P171_UpdatePrivProfessions]
  * [P206_UpdateSkillBar]
@@ -90,12 +132,12 @@
  * [P314_ItemStreamHead]
  * [P316_EquipBag]
  * [P317_ItemStreamWeaponBarSlot]
- * [P318_UpdateActiveWeaponslot]
+ * [P318_UpdateActiveWeaponset]
  * [P321_MoveItem]
  * [P322_MoveBag]
  * [P323_RemoveItemFromInventory]
  * [P329_MoveEquipedBagIntoOtherStorage]
- * [P335_RemoveAgent]
+ * [P335_PickupItemConfirmation]
  * [P336_ItemProfession]
  * [P343_ItemGeneral]
  * [P370_InstanceLoadHead]
@@ -104,8 +146,6 @@
  * [P393_ItemStreamTerminator]
  * [P395_InstanceLoadDistrictInfo]
  * [P406_Dispatch]
-
- * 395 Packs to Go
 
 == From Login Server ==
  * [P65281_HandshakeReply]
@@ -143,7 +183,8 @@
  * [P38_AcceptEula]
  * [P41_CharacterPlayInfo]
  * [P53_RequestResponse]
- * 36 Packs to Go
+ * [P7_DeleteCharacter]
+
 == To Client ==
  * [NotEncP5633_ServerSeed]
  * [P01_ComputerInfoReply]
@@ -155,7 +196,7 @@
  * [P22_AccountGuiSettings]
  * [P26_AllDistrictsInfo]
  * [P38_SendResponse]
- * 27 Packs to Go
+
 == From Game Server ==
  * [P65281_HandshakeRequest]
  * [P65282_ServerStatsReply]

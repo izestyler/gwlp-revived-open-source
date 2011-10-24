@@ -1,0 +1,4 @@
+== P040_DropGold ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || Amount ||  ||

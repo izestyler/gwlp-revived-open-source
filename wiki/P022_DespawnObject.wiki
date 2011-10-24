@@ -1,0 +1,4 @@
+== P022_DespawnObject ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt32* || AgentID ||  ||

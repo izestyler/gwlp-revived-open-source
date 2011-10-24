@@ -1,0 +1,4 @@
+== P161_KickNPC ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *UInt16* || NPCID ||  ||

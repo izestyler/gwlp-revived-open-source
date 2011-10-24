@@ -1,5 +1,5 @@
-== P056_FIXMEPickupItem ==
+== P031_AttackTarget ==
 || *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
-|| *UInt32* || AgentID || _was ID!!_  ||
+|| *UInt32* || TargetID ||  ||
 || *byte* || Flag ||  ||

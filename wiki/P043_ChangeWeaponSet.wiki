@@ -1,0 +1,4 @@
+== P043_ChangeWeaponSet ==
+|| *Datatype* || *Field* || *Comment* ||
+|| *UInt16* || Header || ||
+|| *byte* || WeaponSet ||  ||

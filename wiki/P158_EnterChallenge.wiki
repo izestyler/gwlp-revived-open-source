@@ -1,5 +1,4 @@
-== P056_FIXMEPickupItem ==
+== P158_EnterChallenge ==
 || *Datatype* || *Field* || *Comment* ||
 || *UInt16* || Header || ||
-|| *UInt32* || AgentID || _was ID!!_  ||
 || *byte* || Flag ||  ||
