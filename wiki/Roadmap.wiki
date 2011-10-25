@@ -1,0 +1,82 @@
+#summary Roadmap of the gwlp:r project
+#labels Featured,Phase-Requirements,Phase-Design
+
+
+= Roadmap =
+ # [Milestone_1 Milestone 1]
+ # [Milestone_2 Milestone 2]
+ # [Milestone_3 Milestone 3]
+ # [Milestone_4 Milestone 4]
+<br>
+----
+== Milestone 1 ==
+=== Goal: ===
+Basic PvP Server
+
+=== Implements: ===
+ * Database <font color="green">`[`implemented`]`</font>
+ * Account creation <font color="red">`[`not yet implemented`]` </font>
+ * Login <font color="green">`[`implemented`]`</font>
+ * Character creation <font color="blue">`[`work started`]`</font>
+ * Load into Instances <font color="green">`[`implemented`]`</font>
+ * Support multiple clients <font color="brown">`[`partly implemented`]`</font>
+ * NPCs <font color="green">`[`implemented`]`</font>
+ * Party Window / Form groups <font color="red">`[`not yet implemented`]`</font>
+ * Player Stats (HP/MP/LVL) <font color="red">`[`not yet implemented`]` </font>
+ * Items <font color="brown">`[`wip`]`</font>
+ * Skills <font color="blue">`[`work started`]`</font>
+ * PvP Buttons (Enter Battle) / maybe through Dialogues <font color="red">`[`not yet implemented`]`</font>
+ * (Custom) Dialogues <font color="green">`[`implemented`]`</font>
+ * Basic collision detection <font color="green">`[`implemented`]`</font> (though not really accurate yet)
+ * Chat <font color="brown">`[`partly implemented`]`</font>
+ * Click to move <font color="red">`[`not yet implemented`]`</font> ( may be delayed to Milestone 2)
+ * Basic PvP Formats (DM/Kill) <font color="red">`[`not yet implemented`]`</font>
+<br>
+----
+== Milestone 2 ==
+=== Goal: ===
+Full featured customizable PvP Server
+=== Implements: ===
+ * Scripting/Plugin Support <font color="grey">`[`On Hold`]`</font>
+ * All PvP formats <font color="grey">`[`On Hold`]`</font>
+ * Collision detection <font color="grey">`[`On Hold`]`</font>
+ * Projectile collision <font color="grey">`[`On Hold`]`</font>
+ * Guilds <font color="grey">`[`On Hold`]`</font>
+ * Friendlist <font color="grey">`[`On Hold`]`</font>
+ * Rewards <font color="grey">`[`On Hold`]`</font>
+ <br>
+----
+== Milestone 3 ==
+=== Goal: ===
+Basic PvE support
+=== Implements: ===
+ * Portals <font color="grey">`[`On Hold`]`</font>
+ * Pathfinding <font color="grey">`[`On Hold`]`</font>
+ * MOBs <font color="grey">`[`On Hold`]`</font>
+ * Basic KI <font color="grey">`[`On Hold`]`</font>
+ * Bosses <font color="grey">`[`On Hold`]`</font>
+ * EP <font color="grey">`[`On Hold`]`</font>
+ * Drops <font color="grey">`[`On Hold`]`</font>
+<br>
+----
+== Milestone 4 ==
+=== Goal: ===
+fulll featured customizable PvE and PvP server
+=== Implements: ===
+ * (Daily)(custom)Quests <font color="grey">`[`On Hold`]`</font>
+ * Trading <font color="grey">`[`On Hold`]`</font>
+ * HM/NM <font color="grey">`[`On Hold`]`</font>
+ * Dungeons <font color="grey">`[`On Hold`]`</font>
+ * Events <font color="grey">`[`On Hold`]`</font>
+ * Advanced (customizable) KI <font color="grey">`[`On Hold`]`</font>
+ * Heroes <font color="grey">`[`On Hold`]`</font>
+<br>
+<br>
+<br>
+<br>
+----
+== <font color="green">Milestone 42</font> ==
+=== Goal: ===
+Cluster support
+=== Implements: ===
+ * Support to run on multiple servers <font color="grey">`[`On Hold`]`</font>
