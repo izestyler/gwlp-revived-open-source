@@ -78,52 +78,52 @@ Keep in mind:
 
 
 == Skill: ==
-	*Id
-	*Name
-	*Type
-	*Attribute
-	*CastTime
-	*Recharge
-	*RequierdTarget
-	vCastRange
+	* Id
+	* Name
+	* Type
+	* Attribute
+	* CastTime
+	* Recharge
+	* RequierdTarget
+	* CastRange
 <br/>
 == Skill.Conditions: ==
-	*Condition //hex remove or whatev
-	*PvP
-	*PvE
-	*Energy
-	*CanMove
-	*MinAttribute
+	* Condition //hex remove or whatev
+	* PvP
+	* PvE
+	* Energy
+	* CanMove
+	* MinAttribute
 <br/>
 == Skill.Effects: ==
-	*Enchant //like Protective Bond so you can stop it
-	*useCorp
-	*Teleport
-	*DeepWound
-	*Weakness
-	*Cripple
-	*Snare
-	*Blind
-	*Block
-	*Evade
-	*Knockback
-	*KnockDown
-	*CostReduction
-	*onDrop
-	*onEnd
-	*Disarm
-	*AoE
-	*Exhaust
-	*SoftInterrupt //on hit interrupt
-	*HardInterrupt
-	*StatChange //armor/attributes/health/energy
-	*Trap
-	*Spirit
-	*HealthRegen //positiv or negativ including bleed,burn,etc
-	*HealthDrain
-	*EnergyRegen //positiv or negativ
-	*EnergyDrain
-	*Rezz
+	* Enchant //like Protective Bond so you can stop it
+	* useCorp
+	* Teleport
+	* DeepWound
+	* Weakness
+	* Cripple
+	* Snare
+	* Blind
+	* Block
+	* Evade
+	* Knockback
+	* KnockDown
+	* CostReduction
+	* onDrop
+	* onEnd
+	* Disarm
+	* AoE
+	* Exhaust
+	* SoftInterrupt //on hit interrupt
+	* HardInterrupt
+	* StatChange //armor/attributes/health/energy
+	* Trap
+	* Spirit
+	* HealthRegen //positiv or negativ including bleed,burn,etc
+	* HealthDrain
+	* EnergyRegen //positiv or negativ
+	* EnergyDrain
+	* Rezz
 <br/>
 
 
