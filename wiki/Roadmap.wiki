@@ -3,10 +3,10 @@
 
 
 = Roadmap =
- # [Roadmap#Milestone_1]
- # [Roadmap#Milestone_2]
- # [Roadmap#Milestone_3]
- # [Roadmap#Milestone_4]
+ # [Roadmap#Milestone_1 Milestone 1]
+ # [Roadmap#Milestone_2 Milestone 2]
+ # [Roadmap#Milestone_3 Milestone 3]
+ # [Roadmap#Milestone_4 Milestone 4]
 <br>
 ----
 == Milestone 1 ==
