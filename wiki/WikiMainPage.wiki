@@ -1,16 +1,13 @@
 #summary Overview wiki page, used to hide the default one.
 #labels Featured
-
+<font color=green>*The wiki pages list is available [http://code.google.com/p/gwlp-revived-open-source/w/list here]. You can also use this to create new pages.*</font>
 = Introduction =
 
-Welcome to the GWLP:Revived project wiki pages!
-<br/>
+_Welcome to the GWLP:Revived project wiki pages!_
+ * [Roadmap View our roadmap!]
 
 ----
 == External pages ==
-
-These pages are available on game revision:
-  * [http://wiki.gamerevision.com/index.php/PacketDocumentation GR:Wiki packet docu] Warning! This is outdated, please use [PacketDoc this].
   * [http://wiki.gamerevision.com/index.php/GWLP_R GR:Wiki setup howto]
 
 ----
@@ -22,4 +19,3 @@ These pages are available on game revision:
  * [SkillData The skill system]
  * [DialogFormat Dialog Format description]
 <br/>
-The wiki pages list is available [http://code.google.com/p/gwlp-revived-open-source/w/list here]. You can also use this to create new pages.
