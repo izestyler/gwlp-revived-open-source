@@ -75,6 +75,59 @@ Keep in mind:
 }}}
 
 <br/>
+
+
+== Skill: ==
+	*Id
+	*Name
+	*Type
+	*Attribute
+	*CastTime
+	*Recharge
+	*RequierdTarget
+	vCastRange
+<br/>
+== Skill.Conditions: ==
+	*Condition //hex remove or whatev
+	*PvP
+	*PvE
+	*Energy
+	*CanMove
+	*MinAttribute
+<br/>
+== Skill.Effects: ==
+	*Enchant //like Protective Bond so you can stop it
+	*useCorp
+	*Teleport
+	*DeepWound
+	*Weakness
+	*Cripple
+	*Snare
+	*Blind
+	*Block
+	*Evade
+	*Knockback
+	*KnockDown
+	*CostReduction
+	*onDrop
+	*onEnd
+	*Disarm
+	*AoE
+	*Exhaust
+	*SoftInterrupt //on hit interrupt
+	*HardInterrupt
+	*StatChange //armor/attributes/health/energy
+	*Trap
+	*Spirit
+	*HealthRegen //positiv or negativ including bleed,burn,etc
+	*HealthDrain
+	*EnergyRegen //positiv or negativ
+	*EnergyDrain
+	*Rezz
+<br/>
+
+
+
 == Class:Skill Fields ==
  * SkillID
  * Name
