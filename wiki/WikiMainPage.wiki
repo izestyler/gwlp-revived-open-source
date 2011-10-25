@@ -4,7 +4,6 @@
 = Introduction =
 
 _Welcome to the GWLP:Revived project wiki pages!_
- * [Roadmap View our roadmap!]
 
 ----
 == External pages ==
@@ -15,6 +14,7 @@ _Welcome to the GWLP:Revived project wiki pages!_
 === Community ===
  * [CommunityQuestions Questions & Answers]
 === Development ===
+ * [Roadmap View our roadmap!]
  * [PacketDoc The rough packet documentation]
  * [SkillData The skill system]
  * [DialogFormat Dialog Format description]
