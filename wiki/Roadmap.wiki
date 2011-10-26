@@ -19,23 +19,23 @@ Basic PvP Server
 
 === Implements: ===
 
-||Database || <font color="green">`[`X done`]`</font> ||
-||Account creation || <font color="red">`[`O to do`]`</font> ||
-||Login || <font color="green">`[`X done`]`</font> ||
-||Character creation || <font color="brown">`[`/ in process`]`</font> ||
-||Load into Instances || <font color="green">`[`X done`]`</font> ||
-||Support multiple clients || <font color="brown">`[`/ in process`]`</font> ||
-||NPCs || <font color="green">`[`X done`]`</font> ||
-||Party Window / Form groups || <font color="red">`[`O to do`]`</font> ||
-||Player Stats (HP/MP/LVL) || <font color="brown">`[`/ in process`]`</font> ||
-||Items || <font color="brown">`[`/ in process`]`</font> ||
-||Skills || <font color="brown">`[`/ in process`]`</font> ||
-||PvP Buttons / Enter Battle (dialogs?) || <font color="red">`[`O to do`]`</font> ||
-||(Custom) Dialogues || <font color="green">`[`X done`]`</font> ||
-||Basic collision detection (emphasis on basic) || <font color="green">`[`X done`]`</font> ||
-||Chat || <font color="green">`[`X done`]`</font> ||
-||Click to move (needs R.E.) || <font color="brown">`[`/ in process`]`</font> ||
-||Basic PvP Formats (DM/Kill) || <font color="red">`[`O to do`]`</font> ||
+||Database || <font color="green">`[`X done`]`</font> || - ||
+||Account creation || <font color="red">`[`O to do`]`</font> || ? ||
+||Login || <font color="green">`[`X done`]`</font> || - ||
+||Character creation || <font color="brown">`[`/ in process`]`</font> || miracle444 ||
+||Load into Instances || <font color="green">`[`X done`]`</font> || - ||
+||Support multiple clients || <font color="brown">`[`/ in process`]`</font> || rusty ||
+||NPCs || <font color="green">`[`X done`]`</font> || - ||
+||Party Window / Form groups || <font color="red">`[`O to do`]`</font> || miracle444 ||
+||Player Stats (HP/MP/LVL) || <font color="brown">`[`/ in process`]`</font> || miracle444, rusty ||
+||Items || <font color="brown">`[`/ in process`]`</font> || miracle444 ||
+||Skills || <font color="brown">`[`/ in process`]`</font> || rusty ||
+||PvP Buttons / Enter Battle (dialogs?) || <font color="red">`[`O to do`]`</font> || ? ||
+||(Custom) Dialogues || <font color="green">`[`X done`]`</font> || - ||
+||Basic collision detection (emphasis on basic) || <font color="green">`[`X done`]`</font> || - ||
+||Chat || <font color="green">`[`X done`]`</font> || - ||
+||Click to move (needs R.E.) || <font color="brown">`[`/ in process`]`</font> || rusty ||
+||Basic PvP Formats (DM/Kill) || <font color="red">`[`O to do`]`</font> || ? ||
 
 <br>
 ----
