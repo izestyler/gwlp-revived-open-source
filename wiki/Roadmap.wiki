@@ -50,6 +50,7 @@ Full featured customizable PvP Server
 === Implements: ===
  * Fileserver <font color="grey">`[`On Hold`]`</font>
  * Scripting/Plugin Support <font color="grey">`[`On Hold`]`</font>
+ * PW Encryption <font color="grey">`[`On Hold`]`</font>
  * All PvP formats <font color="grey">`[`On Hold`]`</font>
  * Collision detection <font color="grey">`[`On Hold`]`</font>
  * Projectile collision <font color="grey">`[`On Hold`]`</font>
