@@ -43,7 +43,7 @@ Basic PvP Server
 === Goal: ===
 Full featured customizable PvP Server
 
-|| Open Tasks: || 7 || 100% ||
+|| Open Tasks: || 9 || 100% ||
 || Working on: || 0 || 0% ||
 || Resolved: || 0 || 0% ||
 
