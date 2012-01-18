@@ -3,6 +3,10 @@
 
 = Introduction =
 
+----
+*Note that this was a suggestion and we'll probably use a scripting language like IronRuby or C# directly*
+----
+
 We'll use a skill system based on an XAML structure,
 see this:
 (...keep this up to date so we have a valid example)
